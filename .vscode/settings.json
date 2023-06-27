@@ -1,0 +1,75 @@
+{
+  // editor
+  "editor.fontSize": 16,
+  "editor.fontFamily": "fira code semibold",
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.lineHeight": 1.5,
+  "editor.wordWrap": "on",
+  "editor.minimap.renderCharacters": false,
+  "editor.formatOnSave": true,
+  "editor.colorDecorators": false,
+  "editor.tabSize": 2,
+  "color-highlight.markerType": "underline",
+  "security.workspace.trust.untrustedFiles": "open",
+  "breadcrumbs.filePath": "off",
+  "outline.icons": false,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 0,
+  "html.autoClosingTags": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDelete": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true,
+    "**/vendor/*/**": true
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  // PHP
+  // Here you can use your path to php
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "php.suggest.basic": false,
+  "phpSniffer.run": "onType",
+  "phpSniffer.autoDetect": true,
+  // Here you can use another coding-style
+  "phpSniffer.standard": "PSR12",
+  "[php]": {
+    "editor.defaultFormatter": "wongjn.php-sniffer"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.colorTheme": "Eva Dark Bold",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "branch-create:command"
+  ],
+  "githubPullRequests.createOnPublishBranch": "never",
+  "editor.snippetSuggestions": "top",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnType": false, // required
+    "editor.formatOnPaste": true, // optional
+    "editor.formatOnSave": true, // optional
+    "editor.formatOnSaveMode": "file" // required to format on save
+  }
+}
